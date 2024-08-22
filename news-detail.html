@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Stay updated with the latest news and events from Crispy Kitchen. Discover our special promotions, culinary experiences, and more.">
+    <meta name="author" content="Crispy Kitchen">
+
+    <title>Crispy Kitchen - News Page</title>
+
+    <!-- CSS Files -->  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/tooplate-crispy-kitchen.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <a class="navbar-brand" href="index.html">
+                Crispy Kitchen
+            </a>
+
+            <div class="d-lg-none">
+                <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">Our Updates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="d-none d-lg-block">
+                <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="site-header site-news-detail-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Exclusive Dining Experience at Crispy Kitchen</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="news-detail section-padding pt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-12">
+                        <img src="images/news/news-detail-header.jpg" class="img-fluid news-detail-image" alt="Exclusive Dining Experience">
+
+                        <div class="col-lg-10 col-10 mx-auto mt-5">
+                            <h4 class="mb-3">Experience Fine Dining Like Never Before</h4>
+
+                            <p>Join us for an extraordinary dining experience at Crispy Kitchen. Our expert chefs create exquisite dishes using the finest ingredients. From traditional favorites to innovative creations, discover what makes us a unique destination for food lovers.</p>
+
+                            <ul class="list">
+                                <li class="list-item">New seasonal menu now available</li>
+                                <li class="list-item">Chef's special: Truffle-infused pasta</li>
+                                <li class="list-item">Exclusive wine pairing events starting next month</li>
+                            </ul>
+
+                            <p>Our new seasonal menu features a range of delectable options, including our chef's special truffle-infused pasta. We are also excited to announce our upcoming wine pairing events, designed to enhance your dining experience with perfectly matched wines.</p>
+
+                            <div class="ratio ratio-16x9 my-5">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/6vebbDZxoKE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <p>For more information on our offerings, visit our <a href="https://www.tooplate.com/contact" target="_blank">contact page</a>. We look forward to welcoming you to Crispy Kitchen.</p>
+
+                            <h5 class="mt-4 mb-3">Creamy Truffle Pasta Recipe</h5>
+
+                            <p>Our creamy truffle pasta is a luxurious dish made with rich ingredients. Follow our recipe to recreate this delightful meal at home, or visit us to enjoy it prepared by our skilled chefs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="comments section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="text-center mb-4">Leave a Comment</h4>
+                    </div>
+
+                    <div class="col-lg-7 col-12 mx-auto">
+                        <form class="custom-form comment-form" action="#" method="post" role="form">
+                            <input type="text" name="comment-name" id="comment-name" class="form-control" placeholder="Your Name" required>
+                            <input type="email" name="comment-email" id="comment-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Your Email" required>
+                            <textarea class="form-control" rows="5" id="comment" name="comment" placeholder="Write your comment" required></textarea>
+                            <div class="col-lg-3 col-4 mx-auto">
+                                <button type="submit" class="form-control" id="submit-comment">Submit</button>
+                            </div>
+                        </form>
+
+                        <div class="news-author d-flex flex-wrap align-items-center">
+                            <img src="images/author/alexander-hipp-iEEBWgY_6lA-unsplash.jpg" class="img-fluid news-author-image" alt="David Martin">
+                            <div class="ms-4 w-50">
+                                <p class="mb-2">Had an amazing experience! The pasta was exquisite, and the service was top-notch.</p>
+                                <a href="#">David Martin</a>
+                            </div>
+                            <span class="ms-auto">14 hours ago</span>
+                        </div>
+
+                        <div class="news-author d-flex flex-wrap align-items-center">
+                            <img src="images/author/shoeib-abolhassani-ojl7T2Ah93U-unsplash.jpg" class="img-fluid news-author-image" alt="Jessica Noel">
+                            <div class="ms-4 w-50">
+                                <p class="mb-2">The new menu items are fantastic! Highly recommend the truffle pasta.</p>
+                                <a href="#">Jessica Noel</a>
+                            </div>
+                            <span class="ms-auto">3 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-news section-padding bg-white">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-lg-5 mb-4">Related News</h2>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="news-thumb mb-4">
+                            <a href="news-detail.html">
+                                <img src="images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg" class="img-fluid news-image" alt="Coconut Health Benefits">
+                            </a>
+                            <div class="news-text-info">
+                                <span class="category-tag me-3 bg-info">Promotions</span>
+                                <strong>12 April 2024</strong>
+                                <h5 class="news-title mt-2">
+                                    <a href="news-detail.html" class="news-title-link">Is Coconut Good for Your Health?</a>
+                                </h5>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="news-thumb mb-4">
+                            <a href="news-detail.html">
+                                <img src="images/news/ella-olsson-mmnKI8kMxpc-unsplash.jpg" class="img-fluid news-image" alt="Sushi Business Tips">
+                            </a>
+                            <div class="news-text-info">
+                                <span class="category-tag me-3 bg-info">Career</span>
+                                <strong>18 April 2024</strong>
+                                <h5 class="news-title mt-2">
+                                    <a href="news-detail.html" class="news-title-link">How to Successfully Run a Sushi Business</a>
+                                </h5>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="news-thumb mb-4">
+                            <a href="news-detail.html">
+                                <img src="images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg" class="img-fluid news-image" alt="Fine Dining Experience">
+                            </a>
+                            <div class="news-text-info">
+                                <span class="category-tag me-3 bg-info">Events</span>
+                                <strong>30 April 2024</strong>
+                                <h5 class="news-title mt-2">
+                                    <a href="news-detail.html" class="news-title-link">A Memorable Fine Dining Experience at Crispy Kitchen</a>
+                                </h5>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <img src="images/charles-deluvio-FdDkfYFHqe4-unsplash.jpg" class="img-fluid newsletter-image" alt="Newsletter Image">
+                    </div>
+                    <div class="col-lg-6 col-12 d-flex align-items-center mt-5 mt-lg-0 mx-auto">
+                        <div class="subscribe-form-wrap">
+                            <h4 class="mb-0">Subscribe to Our Newsletter</h4>
+                            <p>Get the latest updates and offers directly in your inbox.</p>
+                            <form class="custom-form subscribe-form mt-4" role="form">
+                                <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Your email address" required>
+                                <button type="submit" class="form-control mb-3" id="subscribe">Subscribe</button>
+                                <small>By subscribing, you agree to our <a href="#">Privacy Policy</a> and <a href="#">Data Policy</a>.</small>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="text-white mb-4 me-5">Crispy Kitchen</h4>
+                </div>
+
+                <div class="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
+                    <h6 class="text-white mb-lg-4 mb-3">Location</h6>
+                    <p>121 Einstein Loop N, Bronx, NY 10475, United States</p>
+                    <a href="https://goo.gl/maps/wZVGLA7q64uC1s886" class="custom-btn btn btn-dark mt-2">Get Directions</a>
+                </div>
+
+                <div class="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
+                    <h6 class="text-white mb-lg-4 mb-3">Opening Hours</h6>
+                    <p class="mb-2">Monday - Friday</p>
+                    <p>10:00 AM - 08:00 PM</p>
+                    <p>Tel: <a href="tel:010-02-0340" class="tel-link">010-02-0340</a></p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
+                    <h6 class="text-white mb-lg-4 mb-3">Follow Us</h6>
+                    <ul class="social-icon">
+                        <li><a href="#" class="social-icon-link bi-facebook"></a></li>
+                        <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+                        <li><a href="#" class="social-icon-link bi-twitter"></a></li>
+                        <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+                    </ul>
+                    <p class="copyright-text tooplate-mt60">© 2024 Crispy Kitchen Co., Ltd. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="BookingModal" tabindex="-1" aria-labelledby="BookingModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="mb-0">Reserve a Table</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column justify-content-center">
+                    <div class="booking">
+                        <form class="booking-form row" role="form" action="#" method="post">
+                            <div class="col-lg-6 col-12">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="your@email.com" required>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="123-456-7890">
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label for="people" class="form-label">Number of People</label>
+                                <input type="number" name="people" id="people" class="form-control" placeholder="12" min="1" required>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label for="date" class="form-label">Date</label>
+                                <input type="date" name="date" id="date" class="form-control" required>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label for="time" class="form-label">Time</label>
+                                <select class="form-select form-control" name="time" id="time">
+                                  <option value="17:00" selected>5:00 PM</option>
+                                  <option value="18:00">6:00 PM</option>
+                                  <option value="19:00">7:00 PM</option>
+                                  <option value="20:00">8:00 PM</option>
+                                  <option value="21:00">9:00 PM</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Special Requests</label>
+                                <textarea class="form-control" rows="4" id="message" name="message" placeholder="Any special requests?"></textarea>
+                            </div>
+                            <div class="col-lg-4 col-12 ms-auto">
+                                <button type="submit" class="form-control">Submit Request</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
